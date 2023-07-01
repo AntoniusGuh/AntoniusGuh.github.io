@@ -1,23 +1,47 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Trabalho Final</title>
-		<script>
-            function chamar_api(){
-                fetch('https://dog.ceo/api/breeds/image/random')
-                .then(response => response.json())
-                .then(data => exibir_imagem(data));
-            }
-            function exibir_imagem(data){
-                document.getElementById("img").src = data.message;
-            }
-		</script>
+
+    <link rel="icon" href=".pokebola.png">
+    <link rel="stylesheet" href="./styles.css">
+    <script defer src="./scripts.js"></script>
+
+    <title>Pokédex</title>
 </head>
 <body>
-    <button type="button" onclick="chamar_api()">Clique em mim</button>
-		<img id="img">
+    <main>
+        <img src="#" alt="Pokémon" class="pokemon__image">
+
+        <h1 class="pokemon__data">
+        <span class="pokemon__number"></span> -
+        <span class="pokemon__name"></span>
+        </h1>
+
+        <form class="form">
+        <input
+            type="search"
+            class="input__search"
+            placeholder="Name or Number"
+            required
+        />
+        </form>
+
+        <div class="buttons">
+        <button class="button btn-prev">Back</button>
+        <button class="button btn-next">Next</button>
+        </div>
+
+        <span class="altura">Height:</span>
+        <span class="peso">Weight:</span>
+        <span class="pokemon__altura"></span>
+        <span class="pokemon__peso"></span>
+        <div class="div1"><span class="pokemon__type"></span></div>
+        <div class="div2"><span class="pokemon__type2"></span></div>
+
+        <img src="./pokedex.png" alt="Pokédex" class="pokedex">
+    </main>
+
 </body>
 </html>
