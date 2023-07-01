@@ -1,1 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Oxanium', cursive;
+}
 
+body {
+    text-align: center;
+    background-image: url();
+    min-height: 100vh;
+}
+
+main {
+    display: inline-block;
+    margin-top: 2%;
+    padding: 15px;
+    position: relative;
+}
+
+.pokedex {
+    width: 100%;
+    max-width: 725px;
+}
+
+.pokemon__image {
+    position: absolute;
+    bottom: 44.3%;
+    left: 28.4%;
+    transform: translate(-63%, 20%);
+    height: 27%;
+}
+
+.pokemon__data {
+    position: absolute;
+    font-weight: 500;
+    color: black;
+    top: 60.5%;
+    right: 59.5%;
+    font-size: clamp(8px, 5vw, 25px);
+}
+
+.pokemon__name {
+    color: #3a444d;
+    text-transform: capitalize;
+}
+
+.pokemon__type {
+    color: white;
+    text-transform: capitalize;
+  }
+
+.pokemon__type2 {
+    color: white;
+    text-transform: capitalize;
+}
+
+.altura {
+    color: white;
+    text-transform: capitalize;
+    position: absolute;
+    left: 61%;
+    bottom: 63%;
+}
+
+.peso {
+    color: white;
+    text-transform: capitalize;
+    position: absolute;
+    left: 61%;
+    bottom: 58%;
+}
+
+.pokemon__altura {
+    color: white;
+    text-transform: capitalize;
+    position: absolute;
+    left: 70%;
+    bottom: 63%;
+}
+
+.pokemon__peso {
+    color: white;
+    text-transform: capitalize;
+    position: absolute;
+    left: 70%;
+    bottom: 58%;
+}
+
+.form {
+    position: absolute;
+    width: 35%;
+    top: 69%;
+    left: 7.5%;
+}
+
+.input__search {
+    width: 100%;
+    padding: 4%;
+    outline: none;
+    border: 2px solid #333;
+    border-radius: 5px;
+    font-weight: 600;
+    color: #3a444d;
+    font-size: clamp(8px, 5vw, 1rem);
+    box-shadow: -3px 4px 0 #333
+}
+
+.buttons {
+    position: absolute;
+    bottom: 12%;
+    left: 27%;
+    width: 27.5%;
+    transform: translate(-57%, 0);
+    display: flex;
+    gap: 20px;
+}
+
+.button {
+    width: 50%;
+    padding: 4%;
+    border: 2px solid #000;
+    border-radius: 5px;
+    font-size: clamp(8px, 5vw, 1rem);
+    font-weight: 600;
+    color: white;
+    background-color: rgb(89, 88, 90);
+    box-shadow: -2px 3px 0 #000;
+}
+
+.button:active {
+    box-shadow: inset -4px 4px 0 #000;
+    font-size: 0.9rem;
+}
+.div1{
+    position: absolute;
+    width: 14.5%;
+    height: 6%;
+    text-align: center;
+    bottom: 10.1%;
+    right: 26.9%;
+}
+.div2{
+    position: absolute;
+    width: 13.5%;
+    height: 6%;
+    text-align: center;
+    bottom: 10.1%;
+    right: 9%;
+}
