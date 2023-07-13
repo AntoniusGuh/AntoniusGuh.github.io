@@ -1,0 +1,200 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    font-weight: 300;
+}
+
+.cima{
+    position: absolute;
+    left: 0%;
+    top: 0%;
+    width: 100%;
+    height: 19%;
+    background: linear-gradient(to right, rgb(220,0,0), rgb(255, 221, 0));
+}
+
+.capa{
+    position: absolute;
+    right: 3%;
+    bottom: 3%;
+    width: 35%;
+}
+
+.menu_button{
+    position: absolute;
+    bottom: 25%;
+    left: 5%;
+    width: 5%;
+    height: 52%;
+    transform: translate(-50%, 0);
+    background-color: transparent;
+    border: 0ch;
+    font-weight: 600;
+}
+
+.menu_button_close{
+    position: absolute;
+    top: 4.4%;
+    left: 16.5%;
+    width: 16.8%;
+    height: 10%;
+    transform: translate(-50%, 0);
+    background-color: transparent;
+    border: 0ch;
+}
+
+.menu{
+    position: absolute;
+    display: none;
+    width: 30%;
+    height: 100%;
+    background: linear-gradient(to right, rgb(220,0,0), rgb(255, 221, 0));
+}
+
+.menu1{
+    position: absolute;
+    left: 8%;
+    top: 22%;
+    font-size: 220%;
+    font-weight: 600;
+    text-decoration: none;
+    color: black;
+}
+
+.menu2{
+    position: absolute;
+    left: 8%;
+    top: 35%;
+    font-size: 220%;
+    font-weight: 600;
+    text-decoration: none;
+    color: black;
+}
+
+.menu3{
+    position: absolute;
+    left: 8%;
+    top: 48%;
+    font-size: 220%;
+    font-weight: 600;
+    text-decoration: none;
+    color: black;
+}
+
+.menu_img{
+    width: 8%;
+}
+
+.open{
+    display: block;
+}
+
+.menu_icon:hover{
+    cursor: pointer;
+}
+
+.menu_icon{
+    width: 100%;
+}
+
+.logo{
+    position: absolute;
+    width: 8%;
+    right: 2.3%;
+    top: 2.3%;
+}
+
+.faixa{
+    position: absolute;
+    top: 20%;
+    left: 0%;
+    width: 100%;
+}
+
+.cone{
+    position: absolute;
+    width: 22%;
+    left: 9%;
+    bottom: 5.5%;
+}
+
+.pneu{
+    position: absolute;
+    width: 24%;
+    left: 19%;
+    bottom: 3.5%;
+}
+
+.formulario{
+    font-size: 120%;
+    font-weight: 300;
+    width: 30%;
+    position: absolute;
+    text-align: center;
+    left: 35%;
+    top: 22.7%;
+}
+
+
+.quadrado{
+    position: absolute;
+    width: 33%;
+    height: 64%;
+    background-color: rgb(250, 250, 250);
+    border: 4px solid rgb(220,0,0);
+    border-radius: 20px;
+    left: 50%;
+    top: 32%;
+    transform: translate(-50%, 0);
+    font-size: clamp(8px, 5vw, 1rem);
+    text-align: center;
+}
+
+.pre{
+    width: 90%;
+    padding: 2%;
+    outline: none;
+    border: 2px solid black;
+    border-radius: 5px;
+    font-weight: 600;
+    color: rgb(89, 88, 90);
+    font-size: clamp(8px, 5vw, 1rem);
+}
+
+.diga{
+    font-size: 140%;
+}
+
+.botao{
+    width: 50%;
+    padding: 4%;
+    border-radius: 5px;
+    font-size: clamp(8px, 5vw, 1rem);
+    font-weight: 600;
+    color: rgb(250, 250, 250);
+    background-color: rgb(220,0,0);
+}
+
+.per{
+    font-weight: 600;
+    text-decoration: none;
+    color: rgb(250, 250, 250);
+}
+
+.home_button{
+    position: absolute;
+    bottom: 25%;
+    left: 13%;
+    width: 5%;
+    height: 52%;
+    transform: translate(-50%, 0);
+    background-color: transparent;
+    border: 0ch;
+    font-weight: 600;
+}
+
+.home_icon{
+    width: 100%;
+}

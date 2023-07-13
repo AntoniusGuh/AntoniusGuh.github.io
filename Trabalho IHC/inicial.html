@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="icon" href="./imagens/icon.png">
+    <link rel="stylesheet" href="./styles/inicial.css">
+    <title>CARPS</title>
+</head>
+<body>
+    <main>
+        <div class="formulario">
+            <h4>Bem vindo ao <span class="laranja">CARPS</span></h4>
+        </div>
+
+        <div class="sublario">
+            <p>Aqui onde seu sonho de ter um carrinho personalizado é realizado!</p>
+        </div>
+
+        <div>
+            <img class="faixa" src="./imagens/faixa.png" alt="faixa">
+        </div>
+
+        <div class="personalizar">
+           <a class="per" href="./cadastro.html">INICIAR PERSONALIZAÇÃO</a>
+        </div>
+
+        <div class="conepneu">
+            <img class="cone" src="./imagens/cone.png" alt="cone">
+            <img class="pneu" src="./imagens/pneu.webp" alt="pneu">
+        </div>
+
+        <img class="capa" src="./imagens/capa.png" alt="exemplos">
+
+        <div class="cima">
+            <button onclick="menuShow()" type="button" class="menu_button">
+                <img class="menu_icon" src="./imagens/menu_icon.png" alt="menu_icon">
+            </button>
+            <button type="button" class="home_button">
+                <a href="./inicial.html"><img class="home_icon" src="./imagens/home_icon.png" alt="menu_icon"></a>
+            </button>
+            <img class="logo" src="./imagens/logo.png" alt="logo">
+        </div>
+
+        <div class="menu">
+            <ul>
+                <button onclick="menuShow()" type="button" class="menu_button_close">
+                    <img class="menu_icon" src="./imagens/menu_icon.png" alt="menu_icon">
+                </button>
+
+                <li><span><a class="menu1" href="./sobrenos.html">
+                    <img class="menu_img" src="./imagens/info.webp" alt="info">&nbsp;SOBRE NÓS
+                </a></span></li>
+
+                <li><span><a class="menu2" href="./suporte.html">
+                    <img class="menu_img" src="./imagens/suporte.webp" alt="suporte">&nbsp;SUPORTE
+                </a></span></li>
+
+                <li><span><a class="menu3" href="./config.html">
+                    <img class="menu_img" src="./imagens/configuração.webp" alt="configuração">&nbsp;CONFIGURAÇÕES
+                    </a></span></li>
+            </ul>
+        </div>
+        <script src="./scripts/menu.js"></script>
+    </main>
+</body>
+</html>
